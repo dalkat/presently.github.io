@@ -326,10 +326,6 @@ section.cta .overlay {
 
 section.contact {
   text-align: center;
-  background: #7a38c8!important;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7a38c8), to(#7134b9))!important;
-  background: linear-gradient(#7a38c8, #7134b9)!important;
-  text:white!important;
 }
 
 section.contact h2 {
