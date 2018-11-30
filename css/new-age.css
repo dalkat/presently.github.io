@@ -160,7 +160,7 @@ header.masthead {
   color: white;
   background: url("../img/background.jpeg"), #7b4397;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left;
   background-size:cover;
 }
 
