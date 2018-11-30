@@ -302,7 +302,7 @@ section.cta .cta-content {
 
 section.cta .cta-content h2 {
   font-size: 50px;
-  max-width: 450px;
+  max-width: 100%;
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
@@ -310,7 +310,7 @@ section.cta .cta-content h2 {
 
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
-    font-size: 80px;
+    font-size: 50px;
   }
 }
 
@@ -320,7 +320,7 @@ section.cta .overlay {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 section.contact {
@@ -354,8 +354,18 @@ section.contact ul.list-social li.social-twitter a {
   background-color: #1da1f2;
 }
 
+
 section.contact ul.list-social li.social-twitter a:hover {
   background-color: #0d95e8;
+}
+
+
+section.contact ul.list-social li.social-instagram a {
+  background-color: #6f42c1;
+}
+
+section.contact ul.list-social li.social-instagram a:hover {
+  background-color: #5d33aa;
 }
 
 section.contact ul.list-social li.social-facebook a {
